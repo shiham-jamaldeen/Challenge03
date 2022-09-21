@@ -7,6 +7,7 @@ Technologies used: HTML 5 and Javascript
 ## How does it work?
 
 1. Enter the URL to your browser window:
+2. Select 
 2. Enter the length of the desired password.
     >**Note**: The system accepts no more than 8 characters minimum and a maximum of 128 characters.
 3. Enter what type of characters you would like to enter in to the password. 
