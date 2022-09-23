@@ -2,15 +2,19 @@
 
 ## Purpose
 This is "Challenge 03" of the University of Adelaide Coding Bootcamp. The task is to create a random password generator using Javascript.
-Technologies used: HTML5 and Javascript
+
+### Technologies used 
+- HTML5 and Javascript
+- Uses `arrays` and the `Math.random()` function
+
 
 ## URL of the application
 https://shiham-jamaldeen.github.io/Challenge03/
 
 ## Preview/Screenshot of the application
+![Random Password Generator](https://raw.githubusercontent.com/shiham-jamaldeen/Challenge03/main/Assets/03-javascript-homework-demo.png)
 
-
-## How does it work?
+## Instructions to use the application
 1. Enter the URL to your browser window: https://shiham-jamaldeen.github.io/Challenge03/
 2. Select the Generate Password button.
 3. Enter the length of the desired password.
@@ -21,5 +25,18 @@ https://shiham-jamaldeen.github.io/Challenge03/
     >  -    Include Lowercase characters in the password? (OK = Yes or Cancel = No)
     >  -    Include Numbers in the password? (OK = Yes or Cancel = No)
     >  -    Include Special characters in the password? (OK = Yes or Cancel = No)
-5.  The password is generated and displayed in the text box
+5.  The password is generated (based on the password requirements in 4) and displayed in the text box.
 
+## Logic/Algorithm
+The `function generatePassword()` has the following logic:
+- User enters the desired password length
+    - Check for password length.
+    - If length of password <= 8 OR length of password >= 128 the display ERROR MESSAGE and request user to enter password
+- User enters the required type of characters -- Uppercase char, Lowercase char, Numbers AND/OR Special characters) in the password.
+    - Check if at least one type of character is present.
+    - If not present, display ERROR MESSAGE and request user to re-enter the desired type of character -- -- Uppercase char, Lowercase char, Numbers AND/OR Special characters
+    - Check the character type
+    - Build a `userChoiceArray` for each character type, selected by the user
+ - Obtain a random index using the Random Number Generator function
+ - Use
+  
