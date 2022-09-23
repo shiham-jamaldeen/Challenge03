@@ -13,8 +13,8 @@ This is "Challenge 03" of the University of Adelaide Coding Bootcamp. The task i
 ## URL of the application
 https://shiham-jamaldeen.github.io/Challenge03/
 
-## Preview/Screenshot of the application
-![Random Password Generator](https://raw.githubusercontent.com/shiham-jamaldeen/Challenge03/main/Assets/03-javascript-homework-demo.png)
+## Preview of the application
+![Random Password Generator application preview](https://raw.githubusercontent.com/shiham-jamaldeen/Challenge03/main/Assets/03-javascript-homework-demo.png)
 
 ## Instructions to use the application
 1. Enter the URL to your browser window: https://shiham-jamaldeen.github.io/Challenge03/
