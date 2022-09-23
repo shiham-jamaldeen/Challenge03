@@ -11,7 +11,7 @@ This is "Challenge 03" of the University of Adelaide Coding Bootcamp. The task i
 
 
 ## URL of the application
-https://shiham-jamaldeen.github.io/Challenge03/
+<a href="https://shiham-jamaldeen.github.io/Challenge03/" target="_blank">https://shiham-jamaldeen.github.io/Challenge03/</a>
 
 ## Preview/Screenshot of the application
 ![Random Password Generator](https://raw.githubusercontent.com/shiham-jamaldeen/Challenge03/main/Assets/03-javascript-homework-demo.png)
