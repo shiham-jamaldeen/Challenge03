@@ -27,7 +27,7 @@ https://shiham-jamaldeen.github.io/Challenge03/
     >  -    Include Special characters in the password? (OK = Yes or Cancel = No)
 5.  The password is generated (based on the password requirements in 4) and displayed in the text box.
 
-## Logic/Algorithm
+## Algorithm
 The `function generatePassword()` has the following logic:
 1. User enters the desired password length
     - Check the `password length` is between 8 to 128 characters 
