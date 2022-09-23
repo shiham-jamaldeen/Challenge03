@@ -29,14 +29,16 @@ https://shiham-jamaldeen.github.io/Challenge03/
 
 ## Logic/Algorithm
 The `function generatePassword()` has the following logic:
-- User enters the desired password length
+1 User enters the desired password length
     - Check for password length.
     - If length of password <= 8 OR length of password >= 128 the display ERROR MESSAGE and request user to enter password
-- User enters the required type of characters -- Uppercase char, Lowercase char, Numbers AND/OR Special characters) in the password.
+2 User enters the required type of characters -- Uppercase char, Lowercase char, Numbers AND/OR Special characters) in the password.
     - Check if at least one type of character is present.
     - If not present, display ERROR MESSAGE and request user to re-enter the desired type of character -- -- Uppercase char, Lowercase char, Numbers AND/OR Special characters
     - Check the character type
     - Build a `userChoiceArray` for each character type, selected by the user
- - Obtain a random index using the Random Number Generator function
- - Use
+ 3 Obtain a random number from the Random Number Generator function
+ 4 Use the random number as the "index"
+ 5 Retrieve "elements" from the `userChoiceArray`, with the index
+ 6 Repeat steps 3 to 5 until the length of the password is achieved
   
