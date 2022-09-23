@@ -42,5 +42,5 @@ The `function generatePassword()` has the following logic:
  5. Obtain a random number from the Random Number Generator function
  6. Use the random number as the "index"
  7. Retrieve "elements" from the `userChoiceArray`, with the index generated in step 6
- 8. Print the element (of the password) to a variable
+ 8. Print the element (of the `userChoiceArray`) to a variable (**Note** This will be the password generated)
  9. Repeat steps 5 to 8 until the desired password length is achieved
