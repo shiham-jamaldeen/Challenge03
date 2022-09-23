@@ -1,7 +1,9 @@
 # Challenge 03 - Password Generator
 
 ## Purpose
-This is "Challenge 03" of the University of Adelaide Coding Bootcamp. The task is to create a random password generator using Javascript.
+This is "Challenge 03" of the University of Adelaide Coding Bootcamp. The task is to create a random password generator using Javascript. The password is generated based on user's input:
+-   Password length (min 8 to max 128 char)
+-   Character types -- Uppercase, Lowercase, Numbers and Special Characters
 
 ### Technologies used 
 - HTML5 and Javascript
